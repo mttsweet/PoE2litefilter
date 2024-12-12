@@ -1,16 +1,52 @@
-#===============================================================================================================
-# NeverSink's Indepth Loot Filter - for Path of Exile
-#===============================================================================================================
-# VERSION:  0.1.1
-# AUTHOR:   NeverSink
-#
-# This is a mini-filter designed for early PoE2 EA gameplay. I will eventually replace it with a full-fledged filter
-# With FilterBlade.xyz support. This filter focuses more on highlighting loot, rather than hiding
-#
-# TWITTER: @NeverSinkDev
-# DISCORD: https://discord.gg/mye6xhF
-# TWITCH:  https://www.twitch.tv/neversink
-# PATREON: https://www.patreon.com/Neversink
+
+#--------------------------
+# Overrides - Titan Slammer Base Items
+#--------------------------
+
+## Gloves
+Show
+BaseType "Expert Bolstered Mitts" "Expert Moulded Mitts"
+SetTextColor 180 180 180 255
+SetBackgroundColor 20 20 0 255
+SetBorderColor 255 255 255 128
+SetFontSize 40
+PlayEffect White Temp
+
+## Boots 
+Show
+BaseType "Expert Trimmed Greaves" "Expert Stone Greaves"
+SetTextColor 180 180 180 255
+SetBackgroundColor 20 20 0 255
+SetBorderColor 255 255 255 128
+SetFontSize 40
+PlayEffect White Temp
+
+## Body
+Show
+BaseType "Expert Steel Plate" "Expert Vaal Cuirass"
+SetTextColor 180 180 180 255
+SetBackgroundColor 20 20 0 255
+SetBorderColor 255 255 255 128
+SetFontSize 40
+PlayEffect White Temp
+
+## Helmet
+Show
+BaseType "Expert Spired Greathelm" "Expert Elite Greathelm"
+SetTextColor 180 180 180 255
+SetBackgroundColor 20 20 0 255
+SetBorderColor 255 255 255 128
+SetFontSize 40
+PlayEffect White Temp
+
+## Two-Handed Maces
+Show
+BaseType "Expert Crumbling Maul" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Leaden Greathammer"
+SetTextColor 180 180 180 255
+SetBackgroundColor 20 20 0 255
+SetBorderColor 255 255 255 128
+SetFontSize 40
+PlayEffect White Temp
 
 #--------------------------
 # Overrides - Uniques, Valuables
@@ -121,11 +157,11 @@ PlayEffect Cyan Temp
 # Currency Tier A: Gemcutter, Annullment
 Show
 Class "Currency"
-BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
+BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance" "Greater Jeweller's Orb"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 240 90 35
-PlayAlertSound 1 300
+PlayAlertSound 6 300
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 40
@@ -133,7 +169,7 @@ SetFontSize 40
 # Currency Tier B: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Vaal Orb" "Greater Jeweller's Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Exotic" "Exalted Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Orb of Chance"
+BaseType "Vaal Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Exotic" "Exalted Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
@@ -218,16 +254,18 @@ MinimapIcon 1 Yellow Diamond
 #--------------------------
 # Rings, Amulets, Belts
 #--------------------------
+# Modified to empahsize normal jewelery bases.
 
 Show
 Rarity Normal
 Class "Rings" "Amulets" "Belts"
+SetTextColor 180 180 180 255
 SetFontSize 40
 
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Magic
-SetFontSize 40
+SetFontSize 36
 
 #--------------------------
 # Salvagable Items
@@ -281,13 +319,3 @@ SetFontSize 35
 # DropLevel <= 50
 # SetBackgroundColor 0 0 0 125
 
-#--------------------------
-# Meta
-#--------------------------
-
-# If this thing crashes, time to update your filter!
-# This is here to prevent people to use this filter for AGES. Expert items will get removed eventually
-# Get a new filter from www.filterblade.xyz
-
-Show
-BaseType == "Expert Laced Boots"
