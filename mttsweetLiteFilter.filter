@@ -6,8 +6,7 @@
 ## Gloves
 Show
 BaseType "Expert Bolstered Mitts" "Expert Moulded Mitts"
-SetTextColor 180 180 180 255
-SetBackgroundColor 20 20 0 255
+SetBackgroundColor 75 75 75 220
 SetBorderColor 255 255 255 128
 SetFontSize 40
 PlayEffect White Temp
@@ -15,17 +14,15 @@ PlayEffect White Temp
 ## Boots 
 Show
 BaseType "Expert Trimmed Greaves" "Expert Stone Greaves"
-SetTextColor 180 180 180 255
-SetBackgroundColor 20 20 0 255
+SetBackgroundColor 75 75 75 220
 SetBorderColor 255 255 255 128
 SetFontSize 40
 PlayEffect White Temp
 
 ## Body
 Show
-BaseType "Expert Steel Plate" "Expert Vaal Cuirass"
-SetTextColor 180 180 180 255
-SetBackgroundColor 20 20 0 255
+BaseType "Advanced Vaal Cuirass" "Expert Steel Plate" "Expert Vaal Cuirass"
+SetBackgroundColor 75 75 75 220
 SetBorderColor 255 255 255 128
 SetFontSize 40
 PlayEffect White Temp
@@ -33,8 +30,7 @@ PlayEffect White Temp
 ## Helmet
 Show
 BaseType "Expert Spired Greathelm" "Expert Elite Greathelm"
-SetTextColor 180 180 180 255
-SetBackgroundColor 20 20 0 255
+SetBackgroundColor 75 75 75 220
 SetBorderColor 255 255 255 128
 SetFontSize 40
 PlayEffect White Temp
@@ -42,8 +38,7 @@ PlayEffect White Temp
 ## Two-Handed Maces
 Show
 BaseType "Expert Crumbling Maul" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Leaden Greathammer"
-SetTextColor 180 180 180 255
-SetBackgroundColor 20 20 0 255
+SetBackgroundColor 75 75 75 220
 SetBorderColor 255 255 255 128
 SetFontSize 40
 PlayEffect White Temp
@@ -312,10 +307,10 @@ SetFontSize 35
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
-# Show
-# Rarity <= Magic
-# Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
-# AreaLevel >= 65
-# DropLevel <= 50
-# SetBackgroundColor 0 0 0 125
+ Show
+ Rarity <= Magic
+ Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+ AreaLevel >= 65
+ DropLevel <= 50
+ SetBackgroundColor 0 0 0 125
 
