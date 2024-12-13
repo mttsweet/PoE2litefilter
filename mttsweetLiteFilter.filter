@@ -1,13 +1,9 @@
-#--------------------------
-# Base Rules
-#--------------------------
 
-Show
-AreaLevel >= 64
-SetTextColor 180 180 180
-SetBorderColor 0 0 0
-SetFontSize 30
-SetBackgroundColor 20 20 0 150
+Hide
+Rarity < Magic
+Quality <= 4
+AreaLevel >= 65
+Class "Flasks"
 
 #--------------------------
 # Overrides - Titan Slammer Base Items
@@ -323,4 +319,17 @@ SetFontSize 35
  AreaLevel >= 65
  DropLevel <= 50
  SetBackgroundColor 0 0 0 125
+
+#--------------------------
+# Base Rules
+#--------------------------
+
+Show
+Rarity <= Magic
+AreaLevel >= 64
+DropLevel <= 63
+SetTextColor 180 180 180 180
+SetBorderColor 0 0 0
+SetFontSize 30
+SetBackgroundColor 20 20 0 150
 
