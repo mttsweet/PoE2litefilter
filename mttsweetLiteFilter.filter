@@ -1,3 +1,13 @@
+#--------------------------
+# Base Rules
+#--------------------------
+
+Show
+AreaLevel <= 64
+SetTextColor 180 180 180
+SetBorderColor 0 0 0
+SetFontSize 30
+SetBackgroundColor 20 20 0 180
 
 #--------------------------
 # Overrides - Titan Slammer Base Items
@@ -37,7 +47,7 @@ PlayEffect White Temp
 
 ## Two-Handed Maces
 Show
-BaseType "Expert Crumbling Maul" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Leaden Greathammer"
+BaseType "Expert Forge Maul" "Expert Crumbling Maul" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Leaden Greathammer"
 SetBackgroundColor 75 75 75 220
 SetBorderColor 255 255 255 128
 SetFontSize 40
