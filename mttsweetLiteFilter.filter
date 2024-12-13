@@ -3,11 +3,11 @@
 #--------------------------
 
 Show
-AreaLevel <= 64
+AreaLevel >= 64
 SetTextColor 180 180 180
 SetBorderColor 0 0 0
 SetFontSize 30
-SetBackgroundColor 20 20 0 180
+SetBackgroundColor 20 20 0 150
 
 #--------------------------
 # Overrides - Titan Slammer Base Items
